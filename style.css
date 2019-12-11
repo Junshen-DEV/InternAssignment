@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #c2f8f8;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 2px 5px lightgray;
+  }
+
+input[type=text],input[type=date]{
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+      padding:10px 80px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      background-color: #90eed8;
+      margin-top: 10px;
+      transition:0.7s all;
+      font-size:20px;
+  }
+
+input[type=submit]:hover{
+      background-color: #0c8f72;
+      transition:0.7s all;
+      color: #ffffff;
+}
+
+input[type=submit]:focus { 
+  outline: none; 
+}
+
+button{
+  padding:10px 70px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #90eed8;
+  margin-top: 10px;
+  transition:0.7s all;
+  font-size:20px;
+}
+
+button:hover{
+  background-color: #0c8f72;
+  transition:0.7s all;
+  color: #ffffff;
+}
+
+button:focus { 
+  outline: none; 
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.topic{
+  font-family: 'Nunito', sans-serif;
+  color: #100d51;
+  text-shadow: 1px 1px;
+}
+
+/*table for add workshop page*/
+table{
+  width: 70%;
+  font-family: 'Nunito', sans-serif;
+}
+
+/*table for view workshop page*/
+.view_table{
+  width:100%;
+  border-collapse: collapse;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17px;
+}
+
+.view_table th , .view_table td{
+  border:1px groove #000000;
+  padding: 5px;
+}
+
+.view_table tr:hover{
+  background-color: #ddd;
+}
+
+.view_table th{
+  text-align: left;
+  background-color: #060c31;
+  color:white;
+}

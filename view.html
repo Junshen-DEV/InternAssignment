@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="topic">Upcoming Working</h1>
+    
+        <div class="container">
+            <table cellpadding="10">
+                <tr><td><a href="index.html"><button type="button">Add Workshop</button></a></td></tr>
+            </table>
+            <table class="view_table">
+                <tr>
+                  <th>Name</th>
+                  <th>Date</th>
+                  <th>Duration</th>
+                  <th>Description</th>  
+                </tr>
+                <tbody id="table_body"></tbody>
+            </table>
+            </div>
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+            <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
+        
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+            <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
+        
+            <script>
+          // Your web app's Firebase configuration
+             var firebaseConfig = {
+              apiKey: "AIzaSyCY33r7RrDf4P31OYoixSF9UJfA4nj79mI",
+              authDomain: "coblix-workshop-booking-system.firebaseapp.com",
+              databaseURL: "https://coblix-workshop-booking-system.firebaseio.com",
+             projectId: "coblix-workshop-booking-system",
+             storageBucket: "coblix-workshop-booking-system.appspot.com",
+             messagingSenderId: "4319987810",
+             appId: "1:4319987810:web:1072d354eb376a81d7693b",
+             measurementId: "G-NSFTBGNBTL"
+             };
+          // Initialize Firebase
+             firebase.initializeApp(firebaseConfig);
+            </script>
+            <script src="jquery-3.4.1.js"></script>
+            <script src="view.js"></script>
+</body>
+</html>

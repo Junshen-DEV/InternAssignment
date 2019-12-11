@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="topic">Create a Work Shop</h1>
+    
+        <div class="container">
+      <table>
+            <tr>
+                <td><h2>Name:</h2></td>
+                <td><input type="text" id="nameWorkshop"></td>
+            </tr>
+            <tr>
+                <td><h2>Date:</h2></td>
+                <td><input type="date" id="dateWorkshop"></td>
+            </tr>
+            <tr>
+                <td><h2>Duration:</h2></td>
+                <td><input type="text" id="drtionWorkshop"></td>
+            </tr>
+            <tr>
+                <td><h2>Description:</h2></td>
+                <td><textarea id="despWorkshop" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input id="addWorkshop" type="submit" value="Add Workshop" ></td>
+                <td><a href="view.html"><button type="button">View Workshop</button></a></td>
+            </tr>
+        </table>
+        </div>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
+
+    <script>
+  // Your web app's Firebase configuration
+     var firebaseConfig = {
+      apiKey: "AIzaSyCY33r7RrDf4P31OYoixSF9UJfA4nj79mI",
+      authDomain: "coblix-workshop-booking-system.firebaseapp.com",
+      databaseURL: "https://coblix-workshop-booking-system.firebaseio.com",
+     projectId: "coblix-workshop-booking-system",
+     storageBucket: "coblix-workshop-booking-system.appspot.com",
+     messagingSenderId: "4319987810",
+     appId: "1:4319987810:web:1072d354eb376a81d7693b",
+     measurementId: "G-NSFTBGNBTL"
+     };
+  // Initialize Firebase
+     firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="index.js"></script>
+    </body>
+</html>
